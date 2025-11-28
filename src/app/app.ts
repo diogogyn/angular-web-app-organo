@@ -3,10 +3,11 @@ import { RouterOutlet } from '@angular/router';
 import { Cabecalho } from './componentes/cabecalho/cabecalho';
 import { Rodape } from './componentes/rodape/rodape';
 import { ListaLivros } from './componentes/lista-livros/lista-livros';
+import { GeneroLiterario } from "./componentes/genero-literario/genero-literario";
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Cabecalho, Rodape,ListaLivros],
+  imports: [Cabecalho, Rodape, ListaLivros, GeneroLiterario],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })

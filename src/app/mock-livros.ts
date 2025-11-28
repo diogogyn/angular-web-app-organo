@@ -10,6 +10,6 @@ export const livros: ILivro[] = [
             livros: []
         },
         favorito: false,
-        imagem: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wC...'
+        imagem: 'https://m.media-amazon.com/images/I/81D2d6LqZdS._AC_UF1000,1000_QL80_.jpg'
     },
 ]
