@@ -1,6 +1,6 @@
 import { ILivro } from "./ilivro";
 
-export interface GeneroLiterario {
+export interface IGeneroLiterario {
     id: string;
     value: string;
     livros: ILivro[]
